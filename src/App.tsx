@@ -31,12 +31,21 @@ function App() {
             General liability insurance protects your Florida business from third-party claims of bodily injury, 
             property damage, and advertising injury. Required by most clients and landlords.
           </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <a href="https://app.usecanopy.com/c/tomlinson-and-co" target="_blank" rel="noopener noreferrer" className="bg-white text-green-700 px-8 py-4 rounded-lg font-bold text-lg transition hover:bg-green-50 shadow-lg">
-              Get Your GL Quote →
+          <div className="flex flex-wrap justify-center gap-3">
+            <a href="https://app.usecanopy.com/c/tomlinson-and-co" target="_blank" rel="noopener noreferrer" className="bg-yellow-400 hover:bg-yellow-300 text-black px-7 py-4 rounded-xl font-bold text-base transition shadow-lg text-center">
+              <span className="block text-xl mb-0.5">⚡</span>
+              Quick Quote
+              <span className="block text-xs font-normal opacity-75">2 mins • Auto-fill</span>
             </a>
-            <a href="tel:800-616-1418" className="bg-green-700 hover:bg-green-600 border-2 border-green-500 text-white px-8 py-4 rounded-lg font-bold text-lg transition">
-              📞 800-616-1418
+            <a href="https://hoinsurance.wufoo.com/forms/mny6lj30o6rvjf/" target="_blank" rel="noopener noreferrer" className="bg-white hover:bg-green-50 text-green-800 px-7 py-4 rounded-xl font-bold text-base transition shadow-lg text-center">
+              <span className="block text-xl mb-0.5">📝</span>
+              Full Quote Form
+              <span className="block text-xs font-normal opacity-60">Detailed application</span>
+            </a>
+            <a href="tel:800-616-1418" className="bg-green-700 hover:bg-green-600 text-white px-7 py-4 rounded-xl font-bold text-base transition shadow-lg text-center">
+              <span className="block text-xl mb-0.5">📞</span>
+              Call Us
+              <span className="block text-xs font-normal opacity-75">800-616-1418</span>
             </a>
           </div>
         </div>
