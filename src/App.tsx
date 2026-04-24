@@ -23,7 +23,9 @@ function App() {
       </header>
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-green-900 via-green-800 to-slate-900 py-16 md:py-24 px-4 text-white">
+      <section className="relative bg-green-900 py-16 md:py-24 px-4 text-white overflow-hidden">
+        <style>{`@keyframes kenBurnsGL{0%{transform:scale(1.0) translate(0%,0%)}25%{transform:scale(1.08) translate(-1.5%,-1%)}50%{transform:scale(1.12) translate(1%,-1.5%)}75%{transform:scale(1.08) translate(1.5%,1%)}100%{transform:scale(1.0) translate(0%,0%)}}.hero-bg-gl{animation:kenBurnsGL 30s ease-in-out infinite;will-change:transform;}`}</style>
+        <div className="absolute inset-0 overflow-hidden"><div className="hero-bg-gl absolute inset-0 bg-cover bg-center" style={{backgroundImage:"url('/hero-gl.jpg')",opacity:0.4}}></div><div className="absolute inset-0 bg-gradient-to-br from-green-900/80 via-green-800/60 to-slate-900/70"></div></div>
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-green-300 font-semibold mb-2 uppercase">General Liability Insurance</p>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Essential Protection for Your Business</h2>
