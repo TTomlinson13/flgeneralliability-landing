@@ -46,7 +46,7 @@ function App() {
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <div>
-            <h1 className="text-2xl font-bold text-slate-800">FL<span className="text-green-600">General</span>Liability</h1>
+            <h1 className="text-lg md:text-2xl font-bold text-slate-800 truncate">FL<span className="text-green-600">General</span><span className="hidden sm:inline">Liability</span></h1>
             <p className="text-xs text-slate-500">Protect Your Florida Business</p>
           </div>
           <div className="relative">
@@ -81,7 +81,7 @@ function App() {
             General liability insurance protects your Florida business from third-party claims of bodily injury, 
             property damage, and advertising injury. Required by most clients and landlords.
           </p>
-          <div className="flex flex-wrap justify-center gap-3">
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3">
             <a href="https://app.usecanopy.com/c/tomlinson-and-co" target="_blank" rel="noopener noreferrer" className="bg-yellow-400 hover:bg-yellow-300 text-black px-7 py-4 rounded-xl font-bold text-base transition shadow-lg text-center">
               <span className="block text-xl mb-0.5">⚡</span>
               Quick Quote
